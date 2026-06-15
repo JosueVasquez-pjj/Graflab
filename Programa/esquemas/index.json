@@ -1,0 +1,18 @@
+{
+    "obras": [
+        {
+            "id": 1,
+            "titulo": "",
+            "artista": "",
+            "url": "https://drive.google.com/file/d/1Cq76ejUf__HjCkAWcvS_9eZuGMVph5C8/view?usp=drive_link"
+        }
+    ],
+
+    "artistas": [
+    	{
+            "id": 1,
+            "nombre": "",
+            "url": "https://drive.google.com/file/d/18SXGWOOSBNrSlktXjn-jtQ_fFtFyuT7V/view?usp=drive_link"
+        }
+    ]
+}
