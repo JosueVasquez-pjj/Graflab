@@ -33,9 +33,10 @@ fetch(archivo)
         <p>${elemento.biografia}</p>
         `;
     }
-});
-
-new QRCode(
+    
+    new QRCode(
     document.getElementById("qrcode"),
     `https://josuevasquez-pjj.github.io/Graflab/detalles.html?tipo=${tipo}&id=${id}`
 );
+    
+});
