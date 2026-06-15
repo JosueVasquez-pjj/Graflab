@@ -2,7 +2,8 @@ fetch("data/artistas.json") // obtiene los datos del json
 .then(res => res.json()) // convierte la respuesta del fetch en un json
 .then(artistas => { //artistas es el nombre del json y toma toda la lista de elementos que contenga
     artistas.forEach(artista => { //para cada elemento del json realizar lo siguiente
-    
+        const contenedor = document.getElementById("contenedor-artistas");
+        
         contenedor.innerHTML += `
         <a class="card"
             href="detalles.html?tipo=artista&id=${artista.id}">
