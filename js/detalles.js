@@ -15,7 +15,7 @@ fetch(archivo)
     const detalles = document.getElementById("detalles");
 
     if(!elemento){
-        detalles.innerHTML = "<h2>No encontrado</h2>";
+        detalles.innerHTML = "<h2>No se encontro Informacion</h2>";
         return;
     }
     if(tipo === "obra"){
