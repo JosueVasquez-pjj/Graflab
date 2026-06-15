@@ -4,7 +4,8 @@ fetch("data/artistas.json")
     
     const contenedor = document.getElementById("contenedor-artistas");
     
-    artistas.forEach(artista => { //para cada elemento del json realizar lo siguiente
+    artistas.forEach(artista => {
+        
         contenedor.innerHTML += `
         <a class="card"
             href="detalles.html?tipo=artista&id=${artista.id}">
