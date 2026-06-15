@@ -1,0 +1,14 @@
+[
+    {
+      "id":"artista001",
+      "nombre":"Juan Pérez",
+      "imagen":"img/juan.jpg",
+      "biografia":"Artista contemporáneo."
+    },
+    {
+      "id":"artista002",
+      "nombre":"María López",
+      "imagen":"img/maria.jpg",
+      "biografia":"Pintora hondureña."
+    }
+  ]
