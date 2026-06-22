@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="es">
     <head>
         <meta charset="UTF-8">
@@ -8,23 +9,42 @@
 
     </head>
     <body>
+        <!--añado el titulo-->
+        <div id="header-container"></div>
         <!--añado el sideba-->
         <div id="sidebar-container"></div>
 
-         <!--añado el titulo-->
-        <header class="header">
-            <h1>Detalles</h1>
-            
-        </header>
         <main>
             <!--este elemento se llenara con los datos asignados de otros-->
-            <div id="detalles"></div>
-            <!--coigo QR-->
-            <div id="qrcode"></div> 
+            <div id="detalles" class="detalle-grid"></div>
+            <!--Boton para el QR-->
+            <div class="btn-detalles" onclick="document.getElementById('modal-reporte').classList.add('open')">
+                Ver QR
+            </div>
+            <div class="modal-overlay" id="modal-reporte">
+                <div class="modal">            
+                    <div class="modal-header">            
+                        <div class="modal-title">
+                            Código QR
+                        </div>
+                        <button class="btn-close" onclick="document.getElementById('modal-reporte').classList.remove('open')">
+                            X
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Escanea o descarga el código QR para acceder directamente a esta pagina.</p>
+                        <!--coigo QR-->
+                        <div id="qrcode" class="canvas"></div>
+                        <div class="btn-qr" onclick="descargarQRConTexto()">Descargar QR</div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <script src="js/sidebar.js"></script>
+        <script src="js/header.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
         <script src="js/detalles.js"></script>
+        <script src="js/downloadQR.js"></script>
     </body>
 </html>

@@ -12,3 +12,29 @@ window.addEventListener("scroll", () => { //cada vez que se escrolea se activa e
         }
     });
 });
+
+function reemplazarUrl(url){
+
+    url = url.replace(
+        "https://drive.google.com/file/d/",
+        "https://drive.google.com/uc?export=download&id="
+    );
+    url = url.replace("/view?usp=drive_link","");
+    url = url.replace("/view","");
+    return url;
+}
+
+async function convertirAJson(url){
+
+    const respuesta = await fetch(reemplazarUrl(url));
+    const json = await respuesta.json();
+    return json;
+}
+
+/*const index = await convertirAJson(url_index);
+const obra = index.obras[0];
+const urlObra = obra.url;
+const datosObra = await convertirAJson(urlObra);
+
+console.log(datosObra.titulo);
+*/

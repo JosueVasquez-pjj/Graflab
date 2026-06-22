@@ -1,16 +1,38 @@
 [
-    {
-      "id":"obra001",
-      "titulo":"Atardecer",
-      "imagen":"img/atardecer.jpg",
-      "descripcion":"Pintura al óleo sobre lienzo.",
-      "artista":"Juan Pérez"
-    },
-    {
-      "id":"obra002",
-      "titulo":"Montaña Azul",
-      "imagen":"img/montana.jpg",
-      "descripcion":"Paisaje natural.",
-      "artista":"María López"
-    }
-  ]
+  {
+    "id": "obra001",
+    "titulo": "SURVIVOR",
+    "tecnica": "linografia",
+    "medidas": "18.38 x 18.38cm",
+    "precio": "200",
+    "ediciones": "10",
+    "disponibles": "9",
+    "descripcion": "Un gato superviviente que esta en busca de su hogar y de su familia, dispueto a hacer lo que sea con tal de lograr su objetivo, aunque eso signifique explorar un nuevo mundo lleno de amenazas.",
+    "imagen": "img/atardecer.jpg",
+    "artista_id": "artista001"
+  },
+  {
+    "id": "",
+    "titulo": "",
+    "tecnica": "",
+    "medidas": "cm",
+    "precio": "",
+    "ediciones": "",
+    "disponibles": "",
+    "descripcion": "",
+    "imagen": "img/.jpg",
+    "artista_id": ""
+  },
+  {
+    "id": "",
+    "titulo": "",
+    "tecnica": "",
+    "medidas": "cm",
+    "precio": "",
+    "ediciones": "",
+    "disponibles": "",
+    "descripcion": "",
+    "imagen": "img/.jpg",
+    "artista_id": ""
+  }
+]

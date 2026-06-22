@@ -1,14 +1,22 @@
 [
-    {
-      "id":"artista001",
-      "nombre":"Juan Pérez",
-      "imagen":"img/juan.jpg",
-      "biografia":"Artista contemporáneo."
-    },
-    {
-      "id":"artista002",
-      "nombre":"María López",
-      "imagen":"img/maria.jpg",
-      "biografia":"Pintora hondureña."
-    }
+  {
+    "id":"artista001",
+    "nombre":"Josue Vasquez",
+    "seudonimo": "Josue V",
+    "telefono": "XXXX-XXXX",
+    "correo": "",
+    "instagram":"instagram",
+    "biografia":"Artista autodidacta con un gran interés en la exploración de arte introspectivo y diversas técnicas artísticas, dedicado casi completamente al grabado y piezas impresas que tienen un significado emocional profundo que exploran sentimientos abstractos. Es un Integrante activo del Graflab, y participado en actividades de dentro del entorno académico universitario y participante de La Grafo del 2025 y 2026 como expocicion principal.",
+    "imagen":"img/josueV.jpg"
+  },
+  {
+    "id":"",
+    "nombre":"",
+    "seudonimo": "",
+    "telefono": "",
+    "correo": "",
+    "instagram":"",
+    "biografia":"",
+    "imagen":"img/.jpg"
+  }
 ]
