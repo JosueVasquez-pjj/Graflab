@@ -29,7 +29,7 @@ function descargarQRConTexto(){
     if(tipo === "obra"){
             // Nombre de la obra
         ctx.fillText(elementoActual.titulo,250,470);
-        ctx.fillText(elementoActual.artista,250,520);
+        //ctx.fillText(elementoActual.artista,250,520);
     }
     if(tipo === "artista"){
         // Nombre de la obra
