@@ -10,6 +10,16 @@
     "imagen":"img/josueV.jpg"
   },
   {
+    "id":"artista002",
+    "nombre":"Dennis",
+    "seudonimo": "",
+    "telefono": "",
+    "correo": "",
+    "instagram":"",
+    "biografia":"",
+    "imagen":"img/.jpg"
+  },
+  {
     "id":"",
     "nombre":"",
     "seudonimo": "",

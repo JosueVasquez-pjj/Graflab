@@ -38,8 +38,8 @@ fetch(archivo) //busca un archivo de la carpeta de datos
                     <p><strong>Técnica:</strong> ${elemento.tecnica}</p>
                     <p><strong>Medidas:</strong> ${elemento.medidas}</p>
                     <p><strong>Precio:</strong> ${elemento.precio} lempiras</p>
-                    <p><strong>Ediciones:</strong> ${elemento.ediciones}</p>
-                    <p><strong>Ediciones disponibles:</strong> ${elemento.disponibles}</p>
+                    <p><strong>Iraje:</strong> ${elemento.ediciones}</p>
+                    <p><strong>Ejemplares disponibles:</strong> ${elemento.disponibles}</p>
                     <br>
                     <p>${elemento.descripcion}</p>
 
@@ -59,6 +59,7 @@ fetch(archivo) //busca un archivo de la carpeta de datos
             `;
         });
     }
+    //<p><strong>Telefono:</strong> ${elemento.telefono}</p>
     if(tipo === "artista"){
         detalles.innerHTML = `
         <div class="detalle-contenedor">
@@ -66,7 +67,6 @@ fetch(archivo) //busca un archivo de la carpeta de datos
                 <h1>${elemento.nombre}</h1>
                 <h3>Seudonimo: ${elemento.seudonimo}</h3>
                 <br>
-                <p><strong>Telefono:</strong> ${elemento.telefono}</p>
                 <p><strong>Correo:</strong> ${elemento.correo}</p>
                 <p><strong>Correo:</strong> ${elemento.instagram}</p>
                 <br>
