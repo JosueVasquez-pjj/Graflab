@@ -1,0 +1,72 @@
+[
+  {
+    "id": "obra001",
+    "titulo": "SURVIVOR",
+    "tecnica": "linografia",
+    "medidas": "18.38 x 18.38cm",
+    "ediciones": "10",
+    "descripcion": "Un gato superviviente que esta en busca de su hogar y de su familia, dispueto a hacer lo que sea con tal de lograr su objetivo, aunque eso signifique explorar un nuevo mundo lleno de amenazas.",
+    "imagen": "img/obras/survivor.jpg",
+    "artista_id": "artista001"
+  },
+  {
+    "id": "obra002",
+    "titulo": "Naranja",
+    "tecnica": "Acuarelas",
+    "medidas": "20 x 20cm",
+    "ediciones": "1",
+    "descripcion": "una practica de acuarelas",
+    "imagen": "img/obras/naranja.jpg",
+    "artista_id": "artista001"
+  },
+  {
+    "id": "obra003",
+    "titulo": "manzana",
+    "tecnica": "Acuarelas",
+    "medidas": "20 x 20cm",
+    "ediciones": "1",
+    "descripcion": "una practica de acuarelas",
+    "imagen": "img/obras/manzana.jpg",
+    "artista_id": "artista001"
+  },
+  {
+    "id": "obra004",
+    "titulo": "Luz",
+    "tecnica": "linografia",
+    "medidas": "9 x 9cm",
+    "ediciones": "ND",
+    "descripcion": "una gata iluminada con una lazer muy pero que muy potente",
+    "imagen": "img/obras/luz.jpg",
+    "artista_id": "artista001"
+  },
+  {
+    "id": "obra005",
+    "titulo": "dennis_a1",
+    "tecnica": "linografia",
+    "medidas": "X x Ycm",
+    "ediciones": "",
+    "descripcion": "agrergar",
+    "imagen": "img/obras/dennis_a1.jpg",
+    "artista_id": "artista002"
+  },
+  {
+    "id": "obra006",
+    "titulo": "dennis_a2",
+    "tecnica": "linografia",
+    "medidas": "X x Ycm",
+    "ediciones": "",
+    "descripcion": "agrergar",
+    "imagen": "img/obras/dennis_a2.jpg",
+    "artista_id": "artista002"
+  },
+  {
+    "id": "obra007",
+    "titulo": "dennis_a3",
+    "tecnica": "linografia",
+    "medidas": "X x Ycm",
+    "ediciones": "",
+    "descripcion": "agrergar",
+    "imagen": "img/obras/dennis_a3.jpg",
+    "artista_id": "artista002"
+  }
+]

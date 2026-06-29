@@ -1,0 +1,38 @@
+[
+    {
+        "id":"expocicion001",
+        "nombre":"LA GRAFO 2025",
+        "ubicacion":"Redondel los Artesanos",
+        "pais":"Honduras",
+        "fecha":"24, 25 de Mayo, 2026",
+        "imagen":"img/expociciones/grafo2025.jpg",
+        "descripcion":"Expocicion anual llena de artistas de todo tipo y de todas las areas"
+    },
+    {
+        "id":"expocicion002",
+        "nombre":"LA GRAFO 2026",
+        "ubicacion":"Redondel los Artesanos",
+        "pais":"Honduras",
+        "fecha":"23, 24 de Mayo, 2026",
+        "imagen":"img/expociciones/grafo2026.jpg",
+        "descripcion":"Expocicion anual llena de artistas de todo tipo y de todas las areas"
+    },
+    {
+        "id":"expocicion003",
+        "nombre":"COWorking",
+        "ubicacion":"UNAH",
+        "pais":"Honduras",
+        "fecha":"18/6/2025",
+        "imagen":"img/expociciones/coworking.jpg",
+        "descripcion":"Expocicion hecha dento de univesidad"
+    },
+    {
+        "id":"expocicion004",
+        "nombre":"Art City Tur",
+        "ubicacion":"CAC-UANH",
+        "pais":"Honduras",
+        "fecha":"17/5/2026",
+        "imagen":"img/expociciones/ast.jpg",
+        "descripcion":"expocicion de tur"
+    }
+]

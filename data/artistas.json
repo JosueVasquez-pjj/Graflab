@@ -1,0 +1,29 @@
+[
+  {
+    "id":"artista001",
+    "nombre":"Josue Vasquez",
+    "seudonimo": "Josue V",
+    "correo": "",
+    "instagram":"instagram",
+    "biografia":"Artista emergente que hace grabado y dibujo con un gran interés en la exploración de diversas técnicas artísticas, con gran intereses en arte que tenga significado emocional profundo, que exploran sentimientos abstractos. Es un Integrante activo del Graflab, y participado en actividades de dentro del entorno académico universitario y participante de La Grafo del 2025 y 2026 como expocicion principal.",
+    "imagen":"img/artistas/josuev.jpg"
+  },
+  {
+    "id":"artista002",
+    "nombre":"Dennis",
+    "seudonimo": "Arty´s",
+    "correo": "nose",
+    "instagram":"tiene",
+    "biografia":"Es dennis",
+    "imagen":"img/artistas/dennis.jpg"
+  },
+  {
+    "id":"A",
+    "nombre":"ARTISTA POR DEFECTO",
+    "seudonimo": "APD",
+    "correo": "",
+    "instagram":"",
+    "biografia":"",
+    "imagen":"img/.jpg"
+  }
+]
